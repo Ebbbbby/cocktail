@@ -50,7 +50,7 @@ export default function SingleCocktail() {
           setCocktail(null)
         }
       } catch (error) {
-        console.log(error)
+        return error
       }
       setLoading(false)
     }
